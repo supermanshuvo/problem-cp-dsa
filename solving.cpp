@@ -2,9 +2,6 @@
 using namespace std;
 int main()
 {
-    int v,t;
-    while(cin>>v>>t){
-        cout << v*2*t<<endl;
-    }
+    cout<< "Set up done"<< endl;
     return 0;
 }
