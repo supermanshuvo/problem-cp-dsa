@@ -3,12 +3,6 @@
 using namespace std;
 int main()
 {
-    long long t,i,n,row;
-    cin >> t;
-    for( i=1;i<=t;i++){
-        cin >>n;
-        row = (sqrt(1+4*2*n)-1)/2;
-        cout << row << endl;
-    }
+    cout<< "Welcome to the world" <<endl;
     return 0;
 }
