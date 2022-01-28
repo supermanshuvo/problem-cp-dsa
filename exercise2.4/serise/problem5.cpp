@@ -1,3 +1,6 @@
+/* 
+* 1-2+3-4+5...nth term
+ */
 #include<iostream>
 using namespace std;
 int main(){

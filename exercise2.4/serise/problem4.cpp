@@ -1,3 +1,6 @@
+/* 
+* 1+(2+3)+(4+5+6)+...+ nth term
+ */
 #include<iostream>
 #include<cmath>
 using namespace std;
