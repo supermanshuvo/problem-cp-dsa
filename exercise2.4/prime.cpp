@@ -11,7 +11,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    long long n,i;
+    long long int n,i;
     cin >> n;
     if(n==2){
         cout << "Prime number : " << n << endl;
@@ -19,8 +19,10 @@ int main(){
     }
     bool isPrime = true;
     for (i = 2; i < n;i++){
-        if(n%i==0)
+        if(n%i==0){
             isPrime = false;
+            break;
+        }
     }
     if(isPrime)
         cout << "Prime number :" << n << endl;
