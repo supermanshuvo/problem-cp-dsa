@@ -1,7 +1,7 @@
 /**
  * @file factorial.cpp
  * @author supermanshuvo (shuvothesuperman@gmail.com)
- * @brief 
+ * @brief n!(Factorial)
  * @version 0.1
  * @date 2022-01-29
  * 
