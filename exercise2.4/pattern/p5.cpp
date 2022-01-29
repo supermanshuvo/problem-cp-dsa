@@ -33,11 +33,12 @@ int main(){
     for (int i = 0; i < p_height-1; i++)
     {
         min_stars -= 2;
-        for (int j = i; j <p_space; j++)
+        for (int j = 1; j < p_space; j++)
             cout << " ";
-        for (int k = 0; k < min_stars; k++)
+        for (int k = 2; k < min_stars; k++)
             cout << "*";
         cout << endl;
+        p_space++;
     }
     return 0;
 }
