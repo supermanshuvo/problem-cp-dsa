@@ -2,6 +2,7 @@
  * @file lightOj-1053.cpp
  * @author supermanshuvo (shuvothesuperman@gmail.com)
  * @brief Higher Math
+ * Pythagorean theorem will give you the answere but it will not work it will give you wrong answer you can use
  * 
  * @version 0.1
  * @date 2022-02-01
