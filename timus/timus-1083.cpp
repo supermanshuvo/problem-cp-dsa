@@ -20,7 +20,6 @@ int main()
    {
        ans=ans*n;
        n=n-l;
-       cout<<n<<" ";
    }
     cout<<endl<<ans<<endl;
     return 0;
