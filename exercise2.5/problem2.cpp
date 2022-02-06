@@ -14,14 +14,13 @@ long bin2Dec(char binaryString[]){
     long qnum = 0;
     int i = 0;
     int n;
-    while (binaryString[i]!=0){{
+    while (binaryString[i]!=0){
         n=binaryString[i]-48;
         if(n!=0 && n!=1){
             return -1;
         }
         qnum = (qnum * 2) + n;
         i++;
-        }
     }
     return qnum;
 }
