@@ -8,3 +8,12 @@
  * @copyright Copyright (c) 2022
  *
  */
+#include<iostream>
+using namespace std;
+int main(){
+    string s;
+    cin >> s;
+    int s_len = s.size();
+    cout << s_len << endl;
+    return 0;
+}
